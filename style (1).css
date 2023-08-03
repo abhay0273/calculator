@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins sans-serif;
+}
+body{
+    background-image: url(./img/study\ image.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.wrap{
+    width: 550px;
+    height: 650px;
+    margin: 70px auto;
+    background: #fff;
+    border-radius: 50px;
+    box-shadow: 0 20px 25px rgba(0,0,0.6);
+}
+#display{
+    border: none;
+    outline: none;
+    width: 530px;
+    height: 120px;
+    color:black;
+    font-size: 60px;
+    font-weight: 800;
+    padding: 10px;
+    text-align: right;
+    background: tomato;
+     border-top-left-radius: 40px;
+    border-top-right-radius: 40px; 
+}
+.button-box{
+    margin: 40px 20px;
+}
+.btn{
+    width: 120px;
+    height: 100px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 50px;
+    line-height: 50px;
+    border-radius: 60%;
+    background: lightgrey;
+
+}
+.btn:hover{
+    background:lightseagreen
+}
+.cbtn,.cbtn:hover{
+    background: red;
+    color: white;
+}
+.mbtn,.mbtn:hover{
+    background: chocolate;
+    color: white;
+}
